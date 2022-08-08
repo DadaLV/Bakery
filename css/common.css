@@ -1,4 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: white;
+  --blue: #0126DE;
+  --pink: #F5EDE7;
+  --dark_pink: #FFC3A0;
+  --text-color: black;
+  --font-family-r: 'Roboto', sans-serif;
+  --font-Famity-s: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--pink);
+}
+
+h2 {
+  color: var(--text-color);
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+.button_b {
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--font-family-r);
+  border: 1px solid #000000;
+  border-radius: 35px;
+  color: #000000;
+}
+
+.button_l {
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--font-family-r);
+  border: 1px solid #FFC3A0;
+  border-radius: 35px;
+  color: #FFC3A0;
 }
