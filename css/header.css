@@ -1,0 +1,11 @@
+.navbar {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+}
+
+.logl {
+ width: 139px;
+ height: 54.02px;
+
+}
