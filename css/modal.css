@@ -1,0 +1,58 @@
+.modal {
+  background-color: var(--blue);
+  height: 77px;
+  top: 0;
+  width: 100%;
+  padding: 25px 25px;
+}
+
+.check_delivery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_text {
+  color: var(--white);
+}
+
+.header_ubtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input {
+  width: 150px;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+.login_btn {
+  margin-left: 20px;
+  padding: 10px 0 0 20px;
+  height: 45px;
+  width: 92px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 35px;
+}
+
+.closex {
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  margin-left: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  cursor: pointer;
+}
