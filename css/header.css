@@ -1,11 +1,16 @@
 .navbar {
- width: 100%;
- display: flex;
- justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 88px;
 }
 
 .logl {
- width: 139px;
- height: 54.02px;
+  width: 139px;
+  height: 54.02px;
+}
 
+.nav-item {
+  display: inline;
+  float: left;
 }
