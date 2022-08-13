@@ -1,16 +1,139 @@
-.navbar {
+.header {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  background: #f5ede7;
+}
+
+.check_delivery {
+  display: flex;
+  flex-direction: row;
+  background-color: #0126de;
+  justify-content: space-around;
+}
+
+.header_ubtn {
+  display: flex;
+  float: right;
   justify-content: center;
-  height: 88px;
+}
+
+.input {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  background: rgba(255, 255, 255, 0.25);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 16px 8px 16px 0px;
+  text-align: center;
+  }
+
+  ::placeholder{
+    color: #ffffff;
+  }
+
+.login_btn {
+  box-sizing: border-box;
+  height: 45px;
+  width: 92px;
+  background: white;
+  border: 1px solid #ffffff;
+  margin: 16px 16px 16px 8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.header_text {
+  width: 727px;
+  height: 22px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+  color: #ffffff;
+}
+
+small {
+  display: block;
+  text-align: center;
+}
+
+.closex {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 16px;
+}
+
+.closex:hover,
+.closex:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main_head {
+  width: 100%;
+  justify-content: center;
+  top: 77px;
+  display: flex;
+  flex-direction: row;
 }
 
 .logl {
-  width: 139px;
-  height: 54.02px;
+  width: 30%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-item {
-  display: inline;
-  float: left;
+a.logl:hover {
+  background-color: #f5ede7;
+}
+
+.nav {
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  align-items: flex-end;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+
+a.nav:hover {
+  background-color: #f5ede7;
+}
+
+.icons {
+  width: 30%;
+  display: flex;
+  float: right;
+  justify-content: center;
+  padding: 10px;
+}
+.icon_header {
+  padding: 5px;
+}
+
+.nav-link {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
 }
